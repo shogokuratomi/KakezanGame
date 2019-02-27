@@ -1,0 +1,90 @@
+TextWidget:
+
+<TextWidget>:
+    BoxLayout:
+        orientation: 'vertical'
+        size: root.size
+
+        # ラベル
+        Label:
+            size_hint_y: 0.7
+            id: label1
+            font_size: 50
+            text: root.text1
+            color: root.color
+
+        Label:
+            size_hint_y: 0.7
+            id: label2
+            font_size: 20
+            text: root.text2
+            color: root.color
+
+        BoxLayout:
+            size_hint_y: 0.3
+            padding: 20,30,20, 10
+            Button:
+                id: button1
+                text: "1"
+                font_size: 68
+                on_press: root.buttonClicked1()
+
+            Button:
+                id: button2
+                text: "2"
+                font_size: 68
+                on_press: root.buttonClicked2()
+
+            Button:
+                id: button3
+                text: "3"
+                font_size: 68
+                on_press: root.buttonClicked3()
+            
+            Button:
+                id: button4
+                text: "4"
+                font_size: 68
+                on_press: root.buttonClicked4()
+            
+            Button:
+                id: button5
+                text: "5"
+                font_size: 68
+                on_press: root.buttonClicked5()
+
+            Button:
+                id: button6
+                text: "6"
+                font_size: 68
+                on_press: root.buttonClicked6()
+
+            Button:
+                id: button7
+                text: "7"
+                font_size: 68
+                on_press: root.buttonClicked7()
+
+            Button:
+                id: button8
+                text: "8"
+                font_size: 68
+                on_press: root.buttonClicked8()
+
+            Button:
+                id: button9
+                text: "9"
+                font_size: 68
+                on_press: root.buttonClicked9()
+
+            Button:
+                id: button10
+                text: "Answer"
+                font_size: 20
+                on_press: root.buttonClicked0()
+
+            Button:
+                id: button11
+                text: "Reset"
+                font_size: 20
+                on_press: root.buttonClicked11()
