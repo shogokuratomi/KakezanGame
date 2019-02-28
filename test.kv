@@ -9,24 +9,24 @@ TextWidget:
         Label:
             size_hint_y: 0.7
             id: label1
-            font_size: 50
+            font_size: root.fontsize1
             text: root.text1
-            color: root.color
+            color: root.color1
 
         Label:
             size_hint_y: 0.7
             id: label2
-            font_size: 20
+            font_size: 60
             text: root.text2
-            color: root.color
+            color: root.color2
 
         BoxLayout:
             size_hint_y: 0.3
             padding: 20,30,20, 10
             Button:
                 id: button1
-                text: "1"
-                font_size: 68
+                text: "素数"
+                font_size: 32
                 on_press: root.buttonClicked1()
 
             Button:
